@@ -89,15 +89,15 @@ INSERT INTO tblDonHang584 (ngay, mota, tblKhachHang584id) VALUES
 
 -- Thêm dữ liệu vào bảng tblHoaDon584
 INSERT INTO tblHoaDon584 (tongTien, ngay, mota, tblDonHang584id) VALUES
-(60000, '2024-11-01', 'Hóa đơn cho đơn hàng ngày 01-11', 1),
-(40000, '2024-11-02', 'Hóa đơn cho đơn hàng ngày 02-11', 2),
-(60000, '2024-11-03', 'Hóa đơn cho đơn hàng ngày 01-11', 1),
-(60000, '2024-11-03', 'Hóa đơn cho đơn hàng ngày 01-11', 1),
-(60000, '2024-11-05', 'Hóa đơn cho đơn hàng ngày 01-11', 1),
-(60000, '2024-11-07', 'Hóa đơn cho đơn hàng ngày 01-11', 1),
-(60000, '2024-11-08', 'Hóa đơn cho đơn hàng ngày 01-11', 1),
-(60000, '2024-11-10', 'Hóa đơn cho đơn hàng ngày 01-11', 1),
-(60000, '2024-11-10', 'Hóa đơn cho đơn hàng ngày 01-11', 1);
+(200000, '2024-11-01', 'Hóa đơn cho đơn hàng ngày 01-11', 1),
+(240000, '2024-11-02', 'Hóa đơn cho đơn hàng ngày 02-11', 2),
+(1070000, '2024-11-03', 'Hóa đơn cho đơn hàng ngày 03-11', 3),
+(600000, '2024-11-03', 'Hóa đơn cho đơn hàng ngày 03-11', 4),
+(1250000, '2024-11-05', 'Hóa đơn cho đơn hàng ngày 05-11', 5),
+(530000, '2024-11-07', 'Hóa đơn cho đơn hàng ngày 07-11', 6),
+(660000, '2024-11-08', 'Hóa đơn cho đơn hàng ngày 08-11', 7),
+(125000, '2024-11-10', 'Hóa đơn cho đơn hàng ngày 10-11', 8),
+(480000, '2024-11-10', 'Hóa đơn cho đơn hàng ngày 10-11', 9);
 
 -- Thêm dữ liệu vào bảng tblMonAnDonHang584
 INSERT INTO tblMonAnDonHang584 (soLuong, tongTien, tblMonAn584id, tblDonHang584id) VALUES
