@@ -18,7 +18,7 @@
 		response.sendRedirect("../ThanhVien584/gdDangNhap584.jsp?err=timeout");
 	}
 	boolean ok = false;
-	if(((String)session.getAttribute("loaiTK")).equals("TKKHtheoDT")){
+	if(session.getAttribute("loaiTK")!=null &&((String)session.getAttribute("loaiTK")).equals("TKKHtheoDT")){
 		ok=true;
 	}
 	String start = (String)session.getAttribute("start");
