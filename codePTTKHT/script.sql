@@ -209,10 +209,13 @@ BEGIN
 END //
 DELIMITER ;
 DELIMITER //
-CREATE DEFINER=`root`@`localhost` PROCEDURE `MonAnTheoTuKhoa`(IN tuKhoa VARCHAR(255))
+
+CREATE DEFINER=`root`@`localhost` PROCEDURE `MonAnDonHang`(IN IDDH INT)
 BEGIN 
-    SELECT * FROM tblMonAn584
-    WHERE ten LIKE CONCAT('%', tuKhoa, '%');
-END;
-//
+    SELECT ma.ten, ma.gia, madh.soLuong, madh.tongTien
+    FROM tblMonAnDonHang584 as madh
+    join tblMonAn584 as ma on madh.tblMonAn584id = ma.id
+    WHERE madh.tblDonHang584id = IDDH;
+END //
+
 DELIMITER ;
